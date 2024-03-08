@@ -4,9 +4,9 @@
 
 Diese Vorlage dient als Grundlage für die Beiträge im Rahmen des Rom-Seminars. Basis ist KOMA-Script, da es auf den deutschen Sprachraum und dessen Eigenheiten abgestimmt ist. Alle für die Erstellung und Integration des Rom-Buches benötigten Pakete sind in der Datei `./preamble/Rom-Beitrag.sty` enthalten. Bitte daher in dieser und in den weiteren Dateien des Unterverzeichnisses `./preamble/...` **keine** eigenständigen Änderungen vornehmen. Wenn etwas zusätzlich gebraucht wird, dann dieses bitte mir, <ulgr@math.uni-tuebingen.de>, mitteilen.
 
-Die Vorlage kann sowohl lokal auf einem eigenen Rechner genutzt werden als auch auf [_Overleaf_](https://www.overleaf.com). Die Vorlage findet man auf GitHub unter [ugroh/Rom-Seminar-Teilnehmer](https://github.com/ugroh/Rom-Seminar-Teilnehmer) und man kann sich dieses als ein `ZIP`-File herunterladen. Dazu geht man auf den grünen, mit __Code__ bezeichneten Schalter und öffnet diesen. Der Rest sollte klar sein: Als `ZIP`-File herunterladen und durch Entpacken in einem geeigneten Unterverzeichnis auf dem PC installieren. 
+Die Vorlage kann sowohl lokal auf einem eigenen Rechner genutzt werden als auch auf [_Overleaf_](https://www.overleaf.com). Die Vorlage findet man auf GitHub unter [ugroh/Rom-Seminar-Teilnehmer](https://github.com/ugroh/Rom-Seminar-Teilnehmer) und man kann sich dieses als ein `ZIP`-File herunterladen. Dazu geht man auf den grünen, mit __Code__ bezeichneten Schalter, geht auf __Local__ und öffnet diesen. Der Rest sollte klar sein: Als `ZIP`-File herunterladen und durch Entpacken in einem geeigneten Unterverzeichnis auf dem PC installieren. 
 
-Wer das System [_Overleaf_](https://www.overleaf.com) nutzt, kann dieses `ZIP`-File dann als neues Projekt in Overleaf installieren. Die Vorlage habe ich dort getestet und es halt alles funktioniert.
+Wer das System [_Overleaf_](https://www.overleaf.com) nutzt, kann dieses `ZIP`-File dann als neues Projekt in Overleaf als neuses Projekt installieren. Die Vorlage habe ich dort getestet und es halt alles funktioniert.
 
 ### Was wird genutzt
 

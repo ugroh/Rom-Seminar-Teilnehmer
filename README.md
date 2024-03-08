@@ -51,6 +51,13 @@ Beim Installieren wird das Hauptverzeichnis __`Rom-Seminar-Teilnehmer`__ angeleg
 			% !TEX root = ../Rom-abcd.tex  
 	
 	Dadurch ist es möglich, diese Datei direkt mit `LaTeX` zu kompilieren, da dann die Stammdatei aufgerufen wird. Dies geht mit [TeXShop](https://pages.uoregon.edu/koch/texshop/obtaining.html) als Tool auf Apple OS oder entsprechend auch mit [TeXworks](https://tug.org/texworks/), der Linux und Windows unterstützt. Meine generelle Empfehlung ist es, diesen Editor für die TeX-Welt zu nutzen, wenn man keinen Apple-Computer hat. 
+	
+	**Wichtig**: Bitte in dieser Datei die entsprechenden Ergänzungen bei
+	
+		\renewcommand{\LongTitel}{Langform des Titels}
+		\renewcommand{\ShortTitel}{Kurzform des Titel}
+		\renewcommand{\AutorenBeitrag}{Autor1, Autor2 \& Autor3}
+	vornehmen. Alles weitere wird dann von `TeX` erledigt. Weiter unten dann die Angabe zum obligatorischen Bild und wer noch einen klugen Spruch hat – siehe das Zitat von Einstein und wie man dieses richtig eingibt.
 
 * __`preamble`__: Hier befinden sich alle Dateien, die zur Erstellung des Dokuments mithilfe von LaTeX erforderlich sind. An diesen Dateien bitte **nichts** verändern. Sollte mal etwas nicht funktionieren oder spezielle Wünsche vorhanden sein, so bitte ich darum, mir dieses mitzuteilen. In dem Abschnitt [Was ist in der `preamble`](#preamble) ist dieses alles detailliert beschrieben. 
 
@@ -72,7 +79,7 @@ Weitere Literatur zur Erstellung eines Beitrags für das Rom-Seminar – und nic
 
 * Wer mehr verstehen oder lernen will – einfach mal auf [_Dante – Literatur und mehr_](https://www.dante.de/dante-e-v/literatur/) nachsehen. Ein schöner Artikel zu TeX findet man  [_etwa hier_](https://www.ams.org/publications/authors/Communication_of_Mathematics_with_TEX.pdf).
 
-* Regeln zur Verfassung eines mathematischen Artikels findet man bei [P. Halmos: _Anleitung Write Mathematics](https://www2.cs.duke.edu/donaldlab/Teaching/add/2011/resources/halmos.pdf) und [D. Knuth: _Mathematical Writing](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf). Letzteres ist eine Vorlesung, die man auch auf [YouTube](https://www.youtube.com/watch?v=mert0kmZvVM&list=PLABJEFgj0PWV22nvw3YKXvR_n1NB6fn5D) findet und an der auch [P. Halmos](https://www.youtube.com/watch?v=Cy_1JgYfKmE) beteiligt ist. 
+* Regeln zur Verfassung eines mathematischen Artikels findet man bei [P. Halmos: _How to Write Mathematics](https://www2.cs.duke.edu/donaldlab/Teaching/add/2011/resources/halmos.pdf) und [D. Knuth: Mathematical Writing](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf). Letzteres ist eine Vorlesung, die man auch auf [YouTube](https://www.youtube.com/watch?v=mert0kmZvVM&list=PLABJEFgj0PWV22nvw3YKXvR_n1NB6fn5D) findet und an der auch [P. Halmos](https://www.youtube.com/watch?v=Cy_1JgYfKmE) beteiligt ist. 
 
 
 <a name="preamble"></a> 

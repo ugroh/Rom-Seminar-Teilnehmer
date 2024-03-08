@@ -8,6 +8,7 @@ Die Vorlage kann sowohl lokal auf einem eigenen Rechner genutzt werden als auch 
 
 Wer das System [_Overleaf_](https://www.overleaf.com) nutzt, kann dieses `ZIP`-File dann als neues Projekt in Overleaf als neuses Projekt installieren. Die Vorlage habe ich dort getestet und es halt alles funktioniert.
 
+
 ### Was wird genutzt
 
 Basis ist das `LaTeX`-System und man sollte sich, zumindest rudimentär, etwas damit auskennen. LaTeX ist ein sog. [WYSIWYM](https://de.wikipedia.org/wiki/WYSIWYM)-System und kein Textverarbeitungsprogramm, mit dem man einen Fließtext schreibt, wie bei Word. Es basiert auf [TeX](https://de.wikipedia.org/wiki/TeX), das ein Programm ist, mithilfe dessen man Texte, die auf einem Computer geschrieben wurden, in eine druckbare Version umwandelt. Dies sollte man bei der Erstellung eines Textes berücksichtigen, d.h. man _»programmiert«_ den Inhalt seines Textes, um ein _schönes_ Ergebnis zu bekommen. 
@@ -36,6 +37,8 @@ Beim Installieren wird das Hauptverzeichnis __`Rom-Seminar-Teilnehmer`__ angeleg
 * `Rom-Beamer.tex`: Eine Beamer-Vorlage zur Erstellung der eigenen Präsentation. Diese ist bewusst schlicht gehalten, da viel Farbe nichts mit der Qualität eines Beitrags zu tun hat.
 	
 	Des Weiteren finden sich die Unterverzeichnisse:
+	
+* __`beispiel`__: Hier findet sich mein Beitrag zu einem virtuellen Rom-Seminar als `Rom-ulgr.pdf`, in dem sich alles zur Nutzung der Vorlage findet.
 
 * __`LaTeX-Tipps`__: Hier finden sich meine LaTeX-Tipps, insbesondere für die Literaturverwaltung. 
 

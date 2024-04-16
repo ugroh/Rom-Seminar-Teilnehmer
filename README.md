@@ -1,13 +1,25 @@
 ## Rom-Seminar: Die `LaTeX`-Vorlage für die Teilnehmer (Stand 2024/03/10)
 
+* [Um was geht es](#einstieg). 
+* [Was wird genutzt](#latex)
+* [Der Aufbau der Vorlage](#aufbau)
+* [Ergänzende Literatur](#lit-latex)
+* [Was ist in `preamble`](#preamble)
+* [Sonstiges](#sonstiges)
+
+<a name="einstieg"></a>
+
 ### Um was geht es
 
 Diese Vorlage dient als Grundlage für die Beiträge im Rahmen des Rom-Seminars. Basis ist KOMA-Script, da es auf den deutschen Sprachraum und dessen Eigenheiten abgestimmt ist. Alle für die Erstellung und Integration des Rom-Buches benötigten Pakete sind in der Datei `./preamble/Rom-Beitrag.sty` enthalten. Bitte daher in dieser und in den weiteren Dateien des Unterverzeichnisses `./preamble/...` **keine** eigenständigen Änderungen vornehmen. Wenn etwas zusätzlich gebraucht wird, dann dieses bitte mir, <ulgr@math.uni-tuebingen.de>, mitteilen.
 
 Die Vorlage kann sowohl lokal auf einem eigenen Rechner genutzt werden als auch auf [_Overleaf_](https://www.overleaf.com). Die Vorlage findet man auf GitHub unter [ugroh/Rom-Seminar-Teilnehmer](https://github.com/ugroh/Rom-Seminar-Teilnehmer) und man kann sich dieses als ein `ZIP`-File herunterladen. Dazu geht man auf den grünen, mit __Code__ bezeichneten Schalter, geht auf __Local__ und öffnet diesen. Der Rest sollte klar sein: Als `ZIP`-File herunterladen und durch Entpacken in einem geeigneten Unterverzeichnis auf dem PC installieren. 
 
-Wer das System [_Overleaf_](https://www.overleaf.com) nutzt, kann dieses `ZIP`-File dann als neues Projekt in Overleaf als neues Projekt installieren. Die Vorlage habe ich dort getestet und es halt alles funktioniert.
+Wer das System [_Overleaf_](https://www.overleaf.com) nutzt, kann dieses `ZIP`-File dann als neues Projekt in Overleaf als neues Projekt installieren. Die Vorlage habe ich dort getestet und es hat alles funktioniert.
 
+Wer `LaTeX` lokal verwenden will: Bitte entweder [MaCTeX](https://www.tug.org/mactex/) nutzen, wenn man einen Apple-PC hat oder die aktuelle [TeXLive-Version](https://tug.org/texlive/) für Linux oder Windows. Die Installation ist auf den jeweiligen Webseiten beschriebe (siehe auch [https://www.latex-project.org/get/](https://www.latex-project.org/get/)). 
+
+<a name="latex"></a>
 
 ### Was wird genutzt
 
@@ -17,8 +29,7 @@ Daher muss man die Möglichkeiten und Grenzen des Systems lernen und berücksich
 
 * [_lsshort_](https://ctan.org/pkg/lshort-german): Eine kleine, aber übersichtliche Einführung in LaTeX mit sinnvollen Tipps und einer kleinen Übersicht zur Entwicklung von TeX und LaTeX.
 
-Weitere Literatur zur Erstellung eines Beitrags findet man in dem Abschnitt [Ergänzende Literatur](#lit-latex).
-
+Weitere Literatur zur Erstellung eines Beitrags findet man in dem Abschnitt [Ergänzende Literatur](#lit-latex). 
 
 <a name="aufbau"></a> 
 
@@ -61,11 +72,9 @@ Beim Installieren wird das Hauptverzeichnis __`Rom-Seminar-Teilnehmer`__ angeleg
 
 * __`preamble`__: Hier befinden sich alle Dateien, die zur Erstellung des Dokuments mithilfe von LaTeX erforderlich sind. An diesen Dateien bitte **nichts** verändern. Sollte mal etwas nicht funktionieren oder spezielle Wünsche vorhanden sein, so bitte ich darum, mir dieses mitzuteilen. In dem Abschnitt [Was ist in der `preamble`](#preamble) ist dieses alles detailliert beschrieben. 
 
-	
 <a name="lit-latex"></a> 
 
 ### Ergänzende Literatur
-
 
 Weitere Literatur zur Erstellung eines Beitrags für das Rom-Seminar – und nicht nur für diesen.
 
@@ -80,7 +89,6 @@ Weitere Literatur zur Erstellung eines Beitrags für das Rom-Seminar – und nic
 * Wer mehr verstehen oder lernen will – einfach mal auf [_Dante – Literatur und mehr_](https://www.dante.de/dante-e-v/literatur/) nachsehen. Ein schöner Artikel zu TeX findet man  [_etwa hier_](https://www.ams.org/publications/authors/Communication_of_Mathematics_with_TEX.pdf).
 
 * Regeln zur Verfassung eines mathematischen Artikels findet man bei [P. Halmos: _How to Write Mathematics](https://www2.cs.duke.edu/donaldlab/Teaching/add/2011/resources/halmos.pdf) und [D. Knuth: Mathematical Writing](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf). Letzteres ist eine Vorlesung, die man auch auf [YouTube](https://www.youtube.com/watch?v=mert0kmZvVM&list=PLABJEFgj0PWV22nvw3YKXvR_n1NB6fn5D) findet und an der auch [P. Halmos](https://www.youtube.com/watch?v=Cy_1JgYfKmE) beteiligt ist. 
-
 
 <a name="preamble"></a> 
 
@@ -104,9 +112,11 @@ Weitere Literatur zur Erstellung eines Beitrags für das Rom-Seminar – und nic
 	
 *  __`Rom-Pakete.tex`__:  Aus meiner Sicht nützliche Pakete, die die Möglichkeiten von LaTeX ergänzen. Wer mehr zu den Paketen wissen will, der kann einmal auf [ctan.org](https://ctan.org) nach diesen suchen und sich das Manual ansehen, oder `texdoc name-des-pakets` am PC aufrufen oder mal H. Voss: _Einführung in LaTeX_ nutzen. Wichtig: _Learning-by-Doing_ ist dann angesagt. 
 
+<a name="sonstiges"></a> 
 
-## Sonstiges 
+### Sonstiges 
 
 * Wünsche, etwaige Fehler etc. bitte an <ulgr@math.uni-tuebingen.de> melden.
+
 
 

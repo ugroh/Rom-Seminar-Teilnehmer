@@ -1,4 +1,6 @@
-## Rom-Seminar: Die `LaTeX`-Vorlage für die Teilnehmer (Stand 2024/03/10)
+## Rom-Seminar: Die `LaTeX`-Vorlage für die Teilnehmer (Stand 2024/04/16)
+
+### Inhaltsverzeichnis
 
 * [Um was geht es](#einstieg). 
 * [Was wird genutzt](#latex)
@@ -6,6 +8,7 @@
 * [Ergänzende Literatur](#lit-latex)
 * [Was ist in `preamble`](#preamble)
 * [Sonstiges](#sonstiges)
+
 
 <a name="einstieg"></a>
 
@@ -17,7 +20,7 @@ Die Vorlage kann sowohl lokal auf einem eigenen Rechner genutzt werden als auch 
 
 Wer das System [_Overleaf_](https://www.overleaf.com) nutzt, kann dieses `ZIP`-File dann als neues Projekt in Overleaf als neues Projekt installieren. Die Vorlage habe ich dort getestet und es hat alles funktioniert.
 
-Wer `LaTeX` lokal verwenden will: Bitte entweder [MaCTeX](https://www.tug.org/mactex/) nutzen, wenn man einen Apple-PC hat oder die aktuelle [TeXLive-Version](https://tug.org/texlive/) für Linux oder Windows. Die Installation ist auf den jeweiligen Webseiten beschriebe (siehe auch [https://www.latex-project.org/get/](https://www.latex-project.org/get/)). 
+Wer `LaTeX` lokal verwenden will: Bitte entweder [MaCTeX](https://www.tug.org/mactex/) nutzen, wenn man einen Apple-PC hat oder die aktuelle [TeXLive-Version](https://tug.org/texlive/) für Linux oder Windows. Die Installation ist auf den jeweiligen Webseiten beschriebe (siehe auch [https://www.latex-project.org/get/](https://www.latex-project.org/get/)). Wer hierzu weitere Informationen benötigt – etwa zur Nutzung eines lokalen `texmf`-Verzeichnisses – bitte mich anschreiben. 
 
 <a name="latex"></a>
 
@@ -47,7 +50,7 @@ Beim Installieren wird das Hauptverzeichnis __`Rom-Seminar-Teilnehmer`__ angeleg
 
 * `Rom-Beamer.tex`: Eine Beamer-Vorlage zur Erstellung der eigenen Präsentation. Diese ist bewusst schlicht gehalten, da viel Farbe nichts mit der Qualität eines Beitrags zu tun hat.
 	
-	Des Weiteren finden sich die Unterverzeichnisse:
+Des Weiteren finden sich die Unterverzeichnisse:
 	
 * __`beispiel`__: Hier findet sich mein Beitrag zu einem virtuellen Rom-Seminar als `Rom-ulgr.pdf`, in dem sich alles zur Nutzung der Vorlage findet.
 
@@ -61,14 +64,15 @@ Beim Installieren wird das Hauptverzeichnis __`Rom-Seminar-Teilnehmer`__ angeleg
 		
 			% !TEX root = ../Rom-abcd.tex  
 	
-	Dadurch ist es möglich, diese Datei direkt mit `LaTeX` zu kompilieren, da dann die Stammdatei aufgerufen wird. Dies geht mit [TeXShop](https://pages.uoregon.edu/koch/texshop/obtaining.html) als Tool auf Apple OS oder entsprechend auch mit [TeXworks](https://tug.org/texworks/), der Linux und Windows unterstützt. Meine generelle Empfehlung ist es, diesen Editor für die TeX-Welt zu nutzen, wenn man keinen Apple-Computer hat. 
+Dadurch ist es möglich, diese Datei direkt mit `LaTeX` zu kompilieren, da dann die Stammdatei aufgerufen wird. Dies geht mit [TeXShop](https://pages.uoregon.edu/koch/texshop/obtaining.html) als Tool auf Apple OS oder entsprechend auch mit [TeXworks](https://tug.org/texworks/), der Linux und Windows unterstützt. Meine generelle Empfehlung ist es, diesen Editor für die TeX-Welt zu nutzen, wenn man keinen Apple-Computer hat. 
 	
-	**Wichtig**: Bitte in dieser Datei die entsprechenden Ergänzungen bei
+**Wichtig**: Bitte in dieser Datei die entsprechenden Ergänzungen bei
 	
 		\renewcommand{\LongTitel}{Langform des Titels}
 		\renewcommand{\ShortTitel}{Kurzform des Titel}
 		\renewcommand{\AutorenBeitrag}{Autor1, Autor2 \& Autor3}
-	vornehmen. Alles weitere wird dann von `TeX` erledigt. Weiter unten dann die Angabe zum obligatorischen Bild und wer noch einen klugen Spruch hat – siehe das Zitat von Einstein und wie man dieses richtig eingibt.
+
+vornehmen. Alles Weitere wird dann von `TeX` erledigt. Weiter unten dann die Angabe zum obligatorischen Bild und wer noch einen klugen Spruch hat – siehe das Zitat von Einstein und wie man dieses richtig eingibt.
 
 * __`preamble`__: Hier befinden sich alle Dateien, die zur Erstellung des Dokuments mithilfe von LaTeX erforderlich sind. An diesen Dateien bitte **nichts** verändern. Sollte mal etwas nicht funktionieren oder spezielle Wünsche vorhanden sein, so bitte ich darum, mir dieses mitzuteilen. In dem Abschnitt [Was ist in der `preamble`](#preamble) ist dieses alles detailliert beschrieben. 
 
@@ -88,7 +92,7 @@ Weitere Literatur zur Erstellung eines Beitrags für das Rom-Seminar – und nic
 
 * Wer mehr verstehen oder lernen will – einfach mal auf [_Dante – Literatur und mehr_](https://www.dante.de/dante-e-v/literatur/) nachsehen. Ein schöner Artikel zu TeX findet man  [_etwa hier_](https://www.ams.org/publications/authors/Communication_of_Mathematics_with_TEX.pdf).
 
-* Regeln zur Verfassung eines mathematischen Artikels findet man bei [P. Halmos: _How to Write Mathematics](https://www2.cs.duke.edu/donaldlab/Teaching/add/2011/resources/halmos.pdf) und [D. Knuth: Mathematical Writing](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf). Letzteres ist eine Vorlesung, die man auch auf [YouTube](https://www.youtube.com/watch?v=mert0kmZvVM&list=PLABJEFgj0PWV22nvw3YKXvR_n1NB6fn5D) findet und an der auch [P. Halmos](https://www.youtube.com/watch?v=Cy_1JgYfKmE) beteiligt ist. 
+* Regeln zur Verfassung eines mathematischen Artikels findet man bei [P. Halmos: _How to Write Mathematics](https://www2.cs.duke.edu/donaldlab/Teaching/add/2011/resources/halmos.pdf) und [D. Knuth: Mathematical Writing](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf). Letzteres ist eine Vorlesung, die man auch auf  [YouTube](https://www.youtube.com/watch?v=mert0kmZvVM&list=PLABJEFgj0PWV22nvw3YKXvR_n1NB6fn5D) findet und an der auch [P. Halmos](https://www.youtube.com/watch?v=Cy_1JgYfKmE) beteiligt ist. 
 
 <a name="preamble"></a> 
 
@@ -102,7 +106,9 @@ Weitere Literatur zur Erstellung eines Beitrags für das Rom-Seminar – und nic
 		
 				% !TEX TS-program = pdflatexmk
 		
-	in der ersten Zeile ist dies sichergestellt (`magic command line`). Das zugehörige `bib`-File findet sich in `content-abcd/bib-abcd` und heißt `Biblio-abcd.bib`. In diese Datei werden die Referenzen eingetragen und gepflegt. Tipp hierzu: Auf einem Mac das Programm `BibDesk` nutzen. Ansonsten ist etwa [JabRef](https://www.jabref.org) zu empfehlen. In meinen LaTeX-Tipps habe ich hierzu etwas zusammengestellt, dass man im Unterverzeichnis `beispiel` findet – [LasTeX-Tipp5](https://github.com/ugroh/Rom-Seminar-Teilnehmer/blob/main/beispiel/LaTeX-Tipp5.pdf).
+in der ersten Zeile ist dies sichergestellt (`magic command line`). Das zugehörige `bib`-File findet sich in `content-abcd/bib-abcd` und heißt `Biblio-abcd.bib`. In diese Datei werden die Referenzen eingetragen und gepflegt. Tipp hierzu: Auf einem Mac das Programm `BibDesk` nutzen. Ansonsten ist etwa [JabRef](https://www.jabref.org) zu empfehlen. In meinen LaTeX-Tipps habe ich hierzu etwas zusammengestellt, dass man im Unterverzeichnis `beispiel` findet – [LasTeX-Tipp5](https://github.com/ugroh/Rom-Seminar-Teilnehmer/blob/main/beispiel/LaTeX-Tipp5.pdf).
+
+**Wichtig:** Bitte im Editor prüfen, ob als `biber` als Tool für die Erstellung des Literaturverzeichnisses eingestellt ist. In Overleaf ist dies bereits der Fall. 
 	
 *  __`Rom-Layout.sty`__:  Alles, was für das Layout zuständig ist. Dabei funktioniert `\section` und `\subsection` wie üblich. Meiner Meinung nach ist  `\subsubsection` entbehrlich und es wird bei der Nutzung eine Nummer ausgegeben – kann man relativ gut nutzen, um etwas besser zu untergliedern. Auch sollen die erstgenannten Befehle mit ihrer *-Variante genutzt werden. Eine Nummerierung ist nicht erforderlich.
 	
@@ -117,6 +123,7 @@ Weitere Literatur zur Erstellung eines Beitrags für das Rom-Seminar – und nic
 ### Sonstiges 
 
 * Wünsche, etwaige Fehler etc. bitte an <ulgr@math.uni-tuebingen.de> melden.
+
 
 
 

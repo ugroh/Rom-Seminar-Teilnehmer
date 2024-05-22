@@ -18,7 +18,7 @@ Diese Vorlage dient als Grundlage für die Beiträge im Rahmen des Rom-Seminars.
 
 Die Vorlage kann sowohl lokal auf einem eigenen Rechner genutzt werden als auch auf [_Overleaf_](https://www.overleaf.com). Die Vorlage findet man auf GitHub unter [ugroh/Rom-Seminar-Teilnehmer](https://github.com/ugroh/Rom-Seminar-Teilnehmer) und man kann sich dieses als ein `ZIP`-File herunterladen. Dazu geht man auf den grünen, mit __Code__ bezeichneten Schalter, geht auf __Local__ und öffnet diesen. Der Rest sollte klar sein: Als `ZIP`-File herunterladen und durch Entpacken in einem geeigneten Unterverzeichnis auf dem PC installieren. 
 
-Wer das System [_Overleaf_](https://www.overleaf.com) nutzt, kann dieses `ZIP`-File dann als neues Projekt in Overleaf als neues Projekt installieren. Die Vorlage habe ich dort getestet und es hat alles funktioniert.
+Wer das System [_Overleaf_](https://www.overleaf.com) nutzt, kann dieses `ZIP`-File in Overleaf als neues Projekt installieren. Die Vorlage habe ich dort getestet und es hat alles funktioniert.
 
 Wer `LaTeX` lokal verwenden will: Bitte entweder [MaCTeX](https://www.tug.org/mactex/) nutzen, wenn man einen Apple-PC hat oder die aktuelle [TeXLive-Version](https://tug.org/texlive/) für Linux oder Windows. Die Installation ist auf den jeweiligen Webseiten beschriebe (siehe auch [https://www.latex-project.org/get/](https://www.latex-project.org/get/)). Wer hierzu weitere Informationen benötigt – etwa zur Nutzung eines lokalen `texmf`-Verzeichnisses – bitte mich anschreiben. 
 

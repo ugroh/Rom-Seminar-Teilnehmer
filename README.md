@@ -1,4 +1,4 @@
-## Rom-Seminar: Die `LaTeX`-Vorlage für die Teilnehmer (Stand 2024/04/16)
+## Rom-Seminar: Die `LaTeX`-Vorlage für die Teilnehmer (Stand 2024/05/22)
 
 ### Inhaltsverzeichnis
 
@@ -106,7 +106,7 @@ Weitere Literatur zur Erstellung eines Beitrags für das Rom-Seminar – und nic
 		
 				% !TEX TS-program = pdflatexmk
 		
-in der ersten Zeile ist dies sichergestellt (`magic command line`). Das zugehörige `bib`-File findet sich in `content-abcd/bib-abcd` und heißt `Biblio-abcd.bib`. In diese Datei werden die Referenzen eingetragen und gepflegt. Tipp hierzu: Auf einem Mac das Programm `BibDesk` nutzen. Ansonsten ist etwa [JabRef](https://www.jabref.org) zu empfehlen. In meinen LaTeX-Tipps habe ich hierzu etwas zusammengestellt, dass man im Unterverzeichnis `beispiel` findet – [LasTeX-Tipp5](https://github.com/ugroh/Rom-Seminar-Teilnehmer/blob/main/beispiel/LaTeX-Tipp5.pdf).
+in der ersten Zeile ist dies sichergestellt (`magic command line`). Das zugehörige `bib`-File findet sich in `content-abcd/bib-abcd` und heißt `Biblio-abcd.bib`. In diese Datei werden die Referenzen eingetragen und gepflegt. Tipp hierzu: Auf einem Mac das Programm `BibDesk` nutzen. Ansonsten ist etwa [JabRef](https://www.jabref.org) zu empfehlen. In meinen LaTeX-Tipps habe ich hierzu etwas zusammengestellt, dass man im Unterverzeichnis `beispiel` findet – [LasTeX-Tipp5](https://github.com/ugroh/Rom-Seminar-Teilnehmer/tree/main/beispiel). Diesen Tipp kann man sich online ansehen oder herunterladen (kleines Download-Symbol rechts in der grauen Leiste). Wer Hilfe benötigt: Mail an mich. 
 
 **Wichtig:** Bitte im Editor prüfen, ob als `biber` als Tool für die Erstellung des Literaturverzeichnisses eingestellt ist. In Overleaf ist dies bereits der Fall. 
 	

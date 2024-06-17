@@ -1,13 +1,13 @@
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% -- Paket für die Erstellung des Buchs zum Rom-Seminar
 %% -- Rom-Buch.sty
-%% -- Stand: 2024/03/10
+%% -- Stand: 2024/06/17
 %% -- Literatur: Der LaTeX-Begleiter, A.4, Seite 910 ff
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Kenndaten
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \NeedsTeXFormat{LaTeX2e}											
-\ProvidesPackage{Rom-Buch}
+\ProvidesPackage{./preamble/Rom-Buch}
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% -- Initialisierungen
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -59,14 +59,25 @@
 %% -- LuaLaTeX oder PDFLaTeX
 %% -- 
 \ifluatex
-    \RequirePackage{libertinus-otf}
-	\unimathsetup{partial=upright}
-    \unimathsetup{math-style=ISO}
-    \setmathfont[range=\mathcal, Scale=MatchUppercase]{LatinModernMath-Regular}
+	\RequirePackage{% wegen LuaLaTeX Problem hier
+		,amsmath
+		,amssymb
+		} 
+   \RequirePackage{libertinus-otf}
+   \unimathsetup{partial=upright}
+   \unimathsetup{math-style=ISO}
+   \setmathfont[range=\mathcal, Scale=MatchUppercase]{LatinModernMath-Regular}
    \setmathfont[range={\mathfrak},Scale=MatchUppercase]{LatinModernMath-Regular}
 \else
-	\RequirePackage[T1]{fontenc}	
+%	%\RequirePackage[T1]{fontenc}	
 	\RequirePackage{libertinus}	
+	\let\digamma\relax
+	%\let\eth\relax
+	%\let\smallsetminus\relax
+	\RequirePackage{%
+		,amsmath
+		,amssymb
+	} 
 \fi
 
 %% -- Sprache und Anführungszeichen richtig
@@ -92,10 +103,12 @@
 	,english = american]{csquotes}
 
 %% --	
-\let\digamma\relax
-\RequirePackage{%
-	,amsmath
-	,amssymb} 
+%\let\digamma\relax
+%\RequirePackage{%
+%	,amsmath
+%	,amssymb} 
+
+%% --
 \RequirePackage[tbtags]{mathtools}	
 
 %% -- Querverweise und hyperref

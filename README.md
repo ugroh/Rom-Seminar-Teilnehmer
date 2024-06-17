@@ -1,4 +1,4 @@
-## Rom-Seminar: Die `LaTeX`-Vorlage für die Teilnehmer (Stand 2024/05/22)
+## Rom-Seminar: Die `LaTeX`-Vorlage für die Teilnehmer (Stand 2024/06/17)
 
 ### Inhaltsverzeichnis
 
@@ -121,6 +121,8 @@ in der ersten Zeile ist dies sichergestellt (`magic command line`). Das zugehör
 <a name="sonstiges"></a> 
 
 ### Sonstiges 
+
+* (2024/06/17) `LuaLaTeX` funktioniert jetzt korrekt. Bitte auch hier darauf achten, dass man mehrere Kompilierungen benötigt. 
 
 * Wünsche, etwaige Fehler etc. bitte an <ulgr@math.uni-tuebingen.de> melden.
 
